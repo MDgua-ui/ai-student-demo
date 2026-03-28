@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* 学号姓名样式（固定顶部） */
+.student-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #2c3e50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 999;
+}
+
+.container {
+    margin-top: 120px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.preview {
+    max-width: 400px;
+    margin: 20px auto;
+    display: none;
+    border: 2px solid #ddd;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+input {
+    padding: 10px;
+    margin: 20px 0;
+}
